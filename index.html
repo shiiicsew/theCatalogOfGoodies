@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="src/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <a class="zagalovok" href="index.html">Каталог товаров</a>
+        <div id="cart-info">
+            <span id="cart-count">0 </span> товаров в корзине
+            <span id="cart-total">0 ₽</span>
+            <button class="clear-btn" id="clear-cart">
+                <img src="img/clear.svg" alt="clear">
+            </button>
+        </div>
+    </header>
+    <main>
+        <div class="search-container">
+            <img src="img/search.svg" alt="search">
+            <input type="text" id="search" placeholder="Поиск по названию..." />
+        </div>
+        <section id="product-list"></section>
+    </main>
+    <footer>
+        <p> <span style="font-weight: 800;">Автор:</span> Петров Максим Александрович</p>
+    </footer>
+
+</body>
+
+</html>
